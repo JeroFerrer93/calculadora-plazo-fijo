@@ -1,26 +1,23 @@
-# 💸 Calculadora de Inversión a Plazo Fijo
+# 📈 Calculadora de Inversión a Plazo Fijo
 
-Una app web interactiva desarrollada en Python + Streamlit para simular inversiones a plazo fijo en Argentina.
+App web interactiva para simular inversiones a plazo fijo en Argentina.
 
-## 🚀 ¿Qué hace?
+## 🚀 Funcionalidades
 
-- Calcula el capital acumulado en un plazo fijo usando interés simple o compuesto
-- Permite sumar aportes mensuales
-- Muestra una tabla y gráfico comparativo: capital aportado vs capital total
-- Permite ver cómo evoluciona la inversión mes a mes
+- Cálculo con interés simple y compuesto
+- Opción de reinvertir intereses
+- Aportes mensuales (solo para interés compuesto)
+- Gráfico comparativo capital total vs aportado
+- Tabla con detalle mes a mes
 
-## 🖼️ Vista previa
+## 🔗 Usala Online
 
-![screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
+👉 [Ir a la calculadora](https://calculadora-plazo-fijo-fbgjjyvs53azecwhoappl4r.streamlit.app)
 
-## 📍 Usala online (gratis)
-
-👉 [Haz clic aquí para usar la calculadora online](https://calculadora-plazo-fijo-fbgjjyvs53azecwhoappl4r.streamlit.app)
-
-## ⚙️ Cómo correrla localmente
+## ⚙️ Ejecutar localmente
 
 ```bash
-git clone https://github.com/TU_USUARIO/calculadora-plazo-fijo.git
+git clone https://github.com/jeroferrer93/calculadora-plazo-fijo.git
 cd calculadora-plazo-fijo
 pip install -r requirements.txt
 streamlit run plazo_fijo_app.py
